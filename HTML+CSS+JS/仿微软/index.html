@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>MicroSoft</title>
 	<link rel="stylesheet" type="text/css" href="microsoft.css">
+	<link rel="stylesheet" type="text/css" href="slide/slide.css">
 </head>
 <body>
 <div id="wrap">
@@ -18,8 +19,8 @@
 			<a href="#">产品</a>
 			<a href="#">支持</a>
 		</div>
-		<input type="search" class="search-text">
-		<input type="search" class="search-btn">
+		<input type="text" class="search-text" placeholder="在Microsoft.com中搜索">
+		<input type="submit" class="search-btn" value="">
 
 		<div class="header-right">
 			<a href="#"><img src="images/cart.jpg"></a>
@@ -28,9 +29,70 @@
 	</div>
 
 	<div id="mainbody"><!--部分主体部分主体部分 -->
-		<div id="page1">
-			<img src="images/page1.jpg">
-			<!-- <a id="insert" href="#">立即购买</a> -->
+
+		<div id="page1"><!-- 第一页第一页第一页第一页第一页第一页第一页 -->
+			<div id ="container">
+				<div id ="list" style="left: -1214px;">
+
+					<div class="Surface-book">
+						<img src="images/page1c.jpg">
+						<section>
+							<h6>超越你对笔记本的想象</h6>
+							<p>Surface Book with performance base。具备空前强劲的性能</p>
+							<div>立即预定</div>
+						</section>
+					</div>
+
+					<a href="#">
+						<div class="Office">
+							<img src="images/page1a.jpg">
+							<section>
+								<h6>你将如何做呢？</h6>
+								<p>office 365将充分发挥设备潜力，激发出你的最佳状态</p>
+								<div>立即获取 OFFICE 365</div>
+							</section>
+						</div>
+					</a>
+
+					<a href="#">
+						<div class="Surface-book">
+							<img src="images/page1b.jpg">
+							<section>
+								<h6>超越你对笔记本的想象</h6>
+								<p>Surface Book with performance base。具备空前强劲的性能</p>
+								<div>立即预定</div>
+							</section>
+						</div>
+					</a>
+
+					<a href="#">
+						<div class="Surface-book">
+							<img src="images/page1c.jpg">
+							<section>
+								<h6>超越你对笔记本的想象</h6>
+								<p>Surface Book with performance base。具备空前强劲的性能</p>
+								<div>立即预定</div>
+							</section>
+						</div>
+					</a>
+
+					<div class="Office">
+						<img src="images/page1a.jpg">
+						<section>
+							<h6>你将如何做呢？</h6>
+							<p>office 365将充分发挥设备潜力，激发出你的最佳状态</p>
+							<div>立即获取 OFFICE 365</div>
+						</section>
+					</div>
+				</div>
+				<div id ="buttons">
+					<span index="1" class="on"></span>
+					<span index="2"></span>
+					<span index="3"></span>
+				</div>
+				<a href="javascript:;" id ="prev" class="arrow">&lt;</a>
+				<a href="javascript:;" id ="next" class="arrow">&gt;</a>
+			</div>
 			<div id="page1-bottom">
 				<div class="left1">
 					<a href="#">
@@ -70,10 +132,19 @@
 				</div>
 			</div>
 		</div>
-		<div id="page2">
+
+
+		<div id="page2"><!-- 第二页第二页第二页第二页第二页第二页第二页 -->
 			<br>
 			<br>
-			<img src="images/page2.jpg">
+			<div class="Office">
+				<img src="images/page2.jpg">
+				<section>
+					<h6>微软官方商城</h6>
+					<p>寻找适合的技术，满足生活、学习、工作和娱乐之所需。</p>
+					<div>立即购买</div>
+				</section>
+			</div>
 			<br>
 			<br>
 			<h1>适用于工作地点</h1>
@@ -115,12 +186,31 @@
 				</div>
 			</div>
 		</div>
-		<div id="page3">
-			<img src="images/page3.jpg">
+
+
+		<div id="page3"><!-- 第三页第三页第三页第三页第三页第三页第三页 -->
+			<div id="container">
+				<div id="list" style="left: -1214px;">
+					<img src="images/page3c.jpg">
+					<img src="images/page3a.jpg">
+					<img src="images/page3b.jpg">
+					<img src="images/page3c.jpg">
+					<img src="images/page3a.jpg">
+				</div>
+				<div id="buttons">
+					<span index="1" class="on"></span>
+					<span index="2"></span>
+					<span index="3"></span>
+				</div>
+				<a href="javascript:;" id="prev" class="arrow">&lt;</a>
+				<a href="javascript:;" id="next" class="arrow">&gt;</a>
+			</div>
 		</div>
 	</div>
-
 </div>
+
+
+
 <div id="footer"><!-- 底部底部底部底部底部底部 -->
 	<div id="main">
 		<div class="up">
@@ -178,12 +268,14 @@
 				<a href="#">商标</a>
 				<a href="#">关于我们的广告</a>
 				<a href="#">京ICP备09042378号-6</a>
-				<a href="#"><京公网安备 11010802010597</a>
+				<a href="#">京公网安备 11010802010597</a>
 				<span>版权所有&copy</span>
 			</div>
 		</div>
 	</div>
+	<button class="feedback" type="submit" value="">网站反馈</button>
+	<a href="javascript:;" class="arrow">&rt;</a>
 </div>
-
+<script type="text/javascript" src="slide/slide.js"></script>
 </body>
 </html>

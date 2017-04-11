@@ -5,9 +5,16 @@
 #wrap{
 	width: 1214px;
 	margin: 0 auto;
-	/*border: 1px solid red;*/
 }
-
+.feedback{
+	position: fixed;
+	right: 0;
+	bottom: 100px;
+	border:1px solid #3ff;
+	cursor: pointer;
+	font-size: 20px;
+	
+}
 
 /*头部头部头部头部头部头*/
 
@@ -24,7 +31,6 @@
 	font-size: 16px;
 	color: black;
 	margin-right: 20px;
-
 }
 
 .header-left{
@@ -39,23 +45,33 @@
 
 .header-mid a{
 	padding: 16px 20px;
-
+}
+.header-mid a:hover{
+	background: #ccf;
 }
 
 .search-text{
 	position: absolute;
 	top: 5px;
-	right: 200px;
+	right: 195px;
 	width: 200px;
 	height: 40px;
+	border: 1px solid gray;
+	outline: none;
+	border-right: 0;
 }
 
 .search-btn{
+	cursor: pointer;
 	position: absolute;
 	top: 5px;
 	right: 150px;
 	width: 50px;
 	height: 40px;
+	outline: none;
+	border: 1px solid gray;
+	border-left: 0;
+	background-image: url(images/search.png); width: 45px;height: 42px;
 }
 
 .header-right{
@@ -76,9 +92,9 @@
 /*第一页第一页第一页第一页*/
 
 
-
 #page1-bottom{
 	position: relative;
+	clear: both;
 }
 #page1-bottom{
 	width: 1214px;
@@ -88,16 +104,18 @@
 	padding: 50px 10px;
 }
 
-#page1-bottom div a{
+#page1-bottom a{
 	text-decoration: none;
 	color: black;
 	line-height: 2em;
 }
 
-#page1-bottom div p a{
+#page1-bottom p a{
 	color: blue;
 }
-
+#page1-bottom p a:hover{
+	text-decoration: underline;
+}
 #page1-bottom img{
 	width: 283.5px;
 	height: 201px;
@@ -136,14 +154,17 @@
 	padding: 50px 10px;
 }
 
-#page2-bottom div a{
+#page2-bottom a{
 	text-decoration: none;
 	color: black;
 	line-height: 1.5em;
 }
 
-#page2-bottom div p a{
+#page2-bottom p a{
 	color: blue;
+}
+#page2-bottom p a:hover{
+	text-decoration: underline;
 }
 
 #page2-bottom img{
@@ -176,6 +197,7 @@
 #footer{
 	width: 100%;
 	background: #f2f2f2;
+	clear: both;
 }
 #main{
 	width: 1214px;
@@ -226,19 +248,16 @@ ul li a{
 
 .down a{
 	text-decoration: none;
-	color: black;
+	color: black; 
 	line-height: 2em;
 	padding: 0 10px 0 10px;
 }
 
-.down{
-	width: 100%;
+.down{width: 100%; 
 	background: #f2f2f2;
-
 }
 
-.down .right{
-	position: absolute;
-	right: 0;
+.down .right{position: absolute; 
+	right: 0; 
 	bottom: 0;
 }
