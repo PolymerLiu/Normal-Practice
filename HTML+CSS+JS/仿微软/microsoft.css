@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrap{
+	width: 1214px;
+	margin: 0 auto;
+}
+.feedback{
+	position: fixed;
+	right: 0;
+	bottom: 100px;
+	border:1px solid #3ff;
+	cursor: pointer;
+	font-size: 20px;
+	
+}
+
+/*头部头部头部头部头部头*/
+
+
+#header{
+	background: white
+	width: 1214px;
+	height: 50px;
+	position: relative;
+}
+
+#header a{
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+	margin-right: 20px;
+}
+
+.header-left{
+	padding-top: 13.5px;
+}
+
+.header-mid{
+	position: absolute;
+	left: 128px;
+	top: 16px;
+}
+
+.header-mid a{
+	padding: 16px 20px;
+}
+.header-mid a:hover{
+	background: #ccf;
+}
+
+.search-text{
+	position: absolute;
+	top: 5px;
+	right: 195px;
+	width: 200px;
+	height: 40px;
+	border: 1px solid gray;
+	outline: none;
+	border-right: 0;
+}
+
+.search-btn{
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	right: 150px;
+	width: 50px;
+	height: 40px;
+	outline: none;
+	border: 1px solid gray;
+	border-left: 0;
+	background-image: url(images/search.png); width: 45px;height: 42px;
+}
+
+.header-right{
+	position: absolute;
+	right: 0;
+	top: 16px;
+}
+
+
+/*主体部分主体部分主体部分*/
+
+
+#mainbody img{
+	width: 1214px;
+}
+
+
+/*第一页第一页第一页第一页*/
+
+
+#page1-bottom{
+	position: relative;
+	clear: both;
+}
+#page1-bottom{
+	width: 1214px;
+}
+#page1-bottom div{
+	width: 283.5px;
+	padding: 50px 10px;
+}
+
+#page1-bottom a{
+	text-decoration: none;
+	color: black;
+	line-height: 2em;
+}
+
+#page1-bottom p a{
+	color: blue;
+}
+#page1-bottom p a:hover{
+	text-decoration: underline;
+}
+#page1-bottom img{
+	width: 283.5px;
+	height: 201px;
+}
+
+#page1-bottom .left1{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#page1-bottom .left2{
+	margin: 0 607px 0 303.5px;
+}
+#page1-bottom .right1{
+	position: absolute;
+	top: 0;
+	right: 303.5px;
+}
+#page1-bottom .right2{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+/*第二页第二页第二页第二页*/
+
+#page2-bottom{
+	position: relative;
+}
+#page2-bottom{
+	width: 1214px;
+}
+#page2-bottom div{
+	width: 283.5px;
+	padding: 50px 10px;
+}
+
+#page2-bottom a{
+	text-decoration: none;
+	color: black;
+	line-height: 1.5em;
+}
+
+#page2-bottom p a{
+	color: blue;
+}
+#page2-bottom p a:hover{
+	text-decoration: underline;
+}
+
+#page2-bottom img{
+	width: 283.5px;
+	height: 201px;
+}
+
+#page2-bottom .left1{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#page2-bottom .left2{
+	margin: 0 607px 0 303.5px;
+}
+#page2-bottom .right1{
+	position: absolute;
+	top: 0;
+	right: 303.5px;
+}
+#page2-bottom .right2{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+/*第三页第三页第三页第三页*/
+
+#footer{
+	width: 100%;
+	background: #f2f2f2;
+	clear: both;
+}
+#main{
+	width: 1214px;
+	margin: 0 auto;
+	position: relative;
+}
+.up ul{
+	width: 194.25px;
+	margin: 30px 0 40px 0;
+}
+ul li{
+	list-style: none;
+
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	line-height: 1.5em;
+}
+.ul1{
+	padding-top: 30px;
+}
+#main .ul2{
+	position: absolute;
+	top: 0;
+	left: 194.25px;
+}
+#main .ul3{
+	position: absolute;
+	top: 0;
+	left: 388.5px;
+}
+#main .ul4{
+	position: absolute;
+	top: 0;
+	right: 388.5px;
+}
+#main .ul5{
+	position: absolute;
+	top: 0;
+	right: 194.5px;
+}
+#main .ul6{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.down a{
+	text-decoration: none;
+	color: black; 
+	line-height: 2em;
+	padding: 0 10px 0 10px;
+}
+
+.down{width: 100%; 
+	background: #f2f2f2;
+}
+
+.down .right{position: absolute; 
+	right: 0; 
+	bottom: 0;
+}
