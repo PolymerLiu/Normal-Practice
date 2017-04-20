@@ -1,0 +1,158 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+/*第一页第一页第一页第一页*/
+#menu{
+	position: fixed;
+	right: 20px;
+	top: 50%;
+	width: 90px;
+	margin: -160px 0 0;
+	padding: 0;
+	list-style-type: none;
+	z-index: 70;
+}
+
+#menu li {
+	margin-top: 10px;
+	font: 14px "Microsoft Yahei";
+}
+#menu a {
+	display: block;
+	padding: 10px 0;
+	background-color: #fff;
+	color: #0074EA;
+	text-align: center;
+	text-decoration: none;
+}
+#menu .active a {
+	color: #fff;
+	background-color: rgb(0, 116, 234);
+}
+
+#main_box {
+	font-family: "Microsoft Yahei";
+}
+.section1 {
+	text-align: center;
+	font-size: 70px ;
+	color: #fff;
+}
+.section1 p{
+	font-size: 16px;
+}
+
+
+/*第二页第二页第二页第二页*/
+.section2 {
+	padding: 0 180px;
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+}
+.section2 h1 {
+	display: none;
+	font-size: 70px;
+
+}
+.section2 .personal_details {
+	float: left;
+	margin: 0 0 0 -100%;
+	height: 70%;
+	list-style-type: none;
+	text-align: left;
+	font-size: 20px;
+}
+
+.section2 .personal_details li{
+	height: 30px;
+}
+.section2 .personal_details span{
+	display: inline-block;
+	width: 70px;
+	text-align: right;
+}
+
+.section2 .personal_details a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.section2 .individual_skills {
+	margin-left: 150%;
+	height: 70%;
+	width: 50%;
+	text-align: left;
+	font-size: 16px;
+	line-height: 1.5;
+
+}
+.section2 .individual_skills b{
+	font-size: 20px;
+}
+
+
+/*第三页第三页第三页第三页*/
+.section3 {
+	padding: 0 100px;
+	color: #04422F;
+	overflow: hidden;
+}
+.section3 h1 {
+	margin-top: 0;
+	margin-bottom: 15px;
+	margin-left: -100%;
+	font-size: 70px;
+}
+.section3 article{
+	margin-left: 150%;
+	height: 75%;
+	width: 70%;
+}
+.section3 h3 {
+	margin: 10px 0px 10px -100%;
+	font-size:30px;
+}
+.section3 article p {
+	font-size: 16px;
+	line-height: 26px;
+}
+.section3 a{
+	color: #04422F;
+	text-decoration: none;
+}
+.section3 a:hover{
+	text-decoration:underline;
+}
+
+
+/*第四页第四页第四页第四页*/
+
+.section4 {
+	text-align: center;
+	color: #054B6B;
+	overflow: hidden;
+}
+.section4 h1{
+	padding-top: 50px;
+	display: none;
+	margin: 10px;
+	line-height: 100px;
+	font-size: 80px;
+	border-bottom: 3px solid;
+}
+.section4 div{
+	height: 70%;
+	line-height: 40px;
+	font-size: 18px;
+}
+.section4 h3{
+	margin-top: 100%;
+	font-size: 40px;
+}
+.section4 .bigfont {
+	font-size: 30px;
+	font-weight: bold;
+	color:#054B60;
+}
