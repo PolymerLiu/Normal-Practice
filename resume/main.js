@@ -12,7 +12,7 @@ $(function(){
 			if(index == 2) {
 				$('.section2 h1').fadeIn(2000);
 				$('.personal_details').animate({margin:"0"},1000);
-				$('.individual_skills').animate({marginLeft:"50%"},1000);
+				$('.individual_skills').animate({marginLeft:"55%"},1000);
 			}
 			if(index == 3) {
 				$('.section3 h1').animate({marginLeft:"0"}, 1000);
