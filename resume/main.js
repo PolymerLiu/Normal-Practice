@@ -9,7 +9,7 @@ $(function(){
 			
 		},
 		afterLoad:function(anchorLink, index){
-			if(index == 2) {
+			if(index == 2) { 
 				$('.section2 h1').fadeIn(2000);
 				$('.personal_details').animate({margin:"0"},1000);
 				$('.individual_skills').animate({marginLeft:"50%"},1000);
