@@ -7,13 +7,16 @@
 	margin: 0 auto;
 }
 .feedback{
+	background: #fff;
 	position: fixed;
 	right: 0;
 	bottom: 100px;
-	border:1px solid #3ff;
-	cursor: pointer;
+	border:1px solid #a0d0f9;
 	font-size: 20px;
-	
+	padding: 5px 5px 10px 5px;
+	transform: rotate(-90deg);
+	z-index: 3;
+	cursor: pointer;
 }
 
 /*头部头部头部头部头部头*/
