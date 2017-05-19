@@ -1,0 +1,101 @@
+/*****************
+*     产品       *
+*****************/
+.box-brand{
+    width: 960px;
+    height: 392px;
+    padding-top: 39px;
+    position: relative;
+}
+.box-brand h3{
+    height: 38px;
+    line-height: 38px;
+    color: #000;
+    font-size: 18px;
+    padding-left: 17px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-left: 5px solid #0062a9;
+}
+.box-brand .slide {
+    overflow: hidden;
+}
+.box-brand .slide ul{
+    width: 2000px;
+}
+.box-brand .slide li{
+    width: 220px;
+    float: left;
+    padding: 0 10px;
+    position: relative;
+}
+.box-brand .slide li img{
+    width: 220px;
+}
+.slide li .slide-title{
+    width: 220px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    background: rgba(0,0,0,.5);
+}
+.slide-title a{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 30px;
+}
+.prev, .next {
+    position: absolute;
+    width: 60px;
+    height: 220px;
+    top: 50%;
+    margin-top: -120px;
+    text-align: center;
+    color: #ffffff;
+    font: 700 20px/220px "宋体";
+    background: rgba(0,0,0,.3);
+}
+.prev{
+    left: 10px;
+}
+.next{
+    right: 10px;
+}
+
+/*****************
+*    配色实例     *
+*****************/
+.news{
+    box-shadow: 2px 2px 10px #888;
+}
+.news .left{
+    width: 120px;
+    height: 200px;
+    position: relative;
+}
+.news .left h3{
+    background-color: #666;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 45px;
+}
+.news .left a{
+    position: absolute;
+    left: 76px;
+    top: 156px;
+    font-size: 16px;
+    color: #666666;
+}
+.news .right{
+    background-color: #fff;
+}
+.news .right li{
+    background-color: red;
+    width: 245px;
+    /*height: 175px;*/
+    float: left;
+    margin-right: 25px;
+}
