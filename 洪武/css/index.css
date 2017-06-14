@@ -24,44 +24,50 @@
     width: 2000px;
 }
 .box-brand .slide li{
-    width: 220px;
+    width: 320px;
     float: left;
     padding: 0 10px;
     position: relative;
 }
 .box-brand .slide li img{
-    width: 220px;
+    width: 320px;
 }
+
+
 .slide li .slide-title{
-    width: 220px;
+    width: 320px;
     height: 40px;
     position: absolute;
-    left: 10px;
-    bottom: 0px;
+    /*left: 10px;*/
+    bottom: 0;
     background: rgba(0,0,0,.5);
+}
+.slide li .slide-title h3{
+    text-align: center;
+    left:30px;
 }
 .slide-title a{
     color: #ffffff;
     font-size: 16px;
     line-height: 40px;
-    padding-left: 30px;
+    padding-left: 122px;
 }
 .prev, .next {
     position: absolute;
-    width: 60px;
-    height: 220px;
+    width: 50px;
+    height: 240px;
     top: 50%;
     margin-top: -120px;
     text-align: center;
     color: #ffffff;
-    font: 700 20px/220px "宋体";
+    font: 700 30px/220px "宋体";
     background: rgba(0,0,0,.3);
 }
 .prev{
     left: 10px;
 }
 .next{
-    right: 10px;
+    right: 0;
 }
 
 /*****************
