@@ -2,25 +2,17 @@
 /**
  * Created by ${刘家福} on ${2017.05.18}.
  */
-var back_top=document.getElementById("back_top");
-back_top.style.display="none";
 var windowHeight =window.innerHeight || document.documentElement.clientHeight;
 var index_banner=document.getElementById("index_banner");
-//console.log(windowHeight);
 var nav=document.getElementsByTagName("nav")[0];
-console.log(windowHeight);
-//var ul=document.getElementById("ul");
-// var lis=ul.children;
-if (windowHeight<=638)
-{
-    index_banner.style.height="100vh";
-}
+
 
 //  返回按钮
+var back_top=document.getElementById("back_top");
+back_top.style.display="none";
 window.onscroll= function () {
     var scrollTop=window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-    console.log(scrollTop);
-    if (scrollTop>windowHeight/2)
+    if (scrollTop>windowHeight)
     {
         back_top.style.display="block";
     }else{
@@ -37,7 +29,6 @@ window.onscroll= function () {
         nav.style.position='absolute';
         nav.style.top="50px";
     }
-
 };
 /*back_top.addEventListener("click", function () {
     document.offsetTop=0;
@@ -45,6 +36,25 @@ window.onscroll= function () {
 back_top.onclick= function () {
     document.offsetTop=0;
 };
+
+// 判断首页是否满屏
+//  目前无法解决banner图片大小随窗口而变化而变化，   但可以通过刷新窗口实现
+(function (){
+    window.onresize= function () {
+        if (windowHeight<=700)
+        {
+            index_banner.style.height="100vh";
+            console.log(11);
+        }else
+        {
+            index_banner.style.height="520px";
+        }
+    } ();
+
+
+}) ();
+console.log(index_banner.offsetHeight);
+console.log(windowHeight);
 
 //  导航栏高亮当前页
 
