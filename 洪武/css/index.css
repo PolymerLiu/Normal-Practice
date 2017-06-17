@@ -18,7 +18,7 @@
     border-left: 5px solid #0062a9;
 }
 .box-brand .slide {
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 .box-brand .slide ul{
     position: absolute;
