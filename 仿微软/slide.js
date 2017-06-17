@@ -4,6 +4,15 @@ window.onload = function slide(){
     var buttons = document.getElementById('buttons').getElementsByTagName('span');
     var prev = document.getElementById('prev');
     var next = document.getElementById('next');
+
+
+    var container1 = document.getElementById('container1');
+    var list1 = document.getElementById('list1');
+    var buttons1 = document.getElementById('buttons1').getElementsByTagName('span');
+    var prev1 = document.getElementById('prev1');
+    var next1 = document.getElementById('next1');
+
+
     var index = 1;
     var animated = false;
     var timer;

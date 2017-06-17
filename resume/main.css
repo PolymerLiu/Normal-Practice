@@ -94,6 +94,9 @@ body {
 
 
 /*第三页第三页第三页第三页*/
+#top{
+	margin-top: -76px;
+}
 .section3 {
 	padding: 0 100px;
 	color: #04422F;
@@ -103,7 +106,7 @@ body {
 	margin-top: 0;
 	margin-bottom: 15px;
 	margin-left: -100%;
-	font-size: 70px;
+	font-size: 40px;
 }
 .section3 article{
 	margin-left: 150%;
@@ -111,8 +114,8 @@ body {
 	width: 70%;
 }
 .section3 h3 {
-	margin: 10px 0px 10px -100%;
-	font-size:30px;
+	margin: 10px 0px -20px -100%;
+	font-size:25px;
 }
 .section3 article p {
 	font-size: 16px;

@@ -23,7 +23,7 @@
 
 
 #header{
-	background: white
+	background: white;
 	width: 1214px;
 	height: 50px;
 	position: relative;
@@ -37,7 +37,7 @@
 }
 
 .header-left{
-	padding-top: 13.5px;
+	padding-top: 13px;
 }
 
 .header-mid{
@@ -69,8 +69,6 @@
 	position: absolute;
 	top: 5px;
 	right: 150px;
-	width: 50px;
-	height: 40px;
 	outline: none;
 	border: 1px solid gray;
 	border-left: 0;
@@ -103,7 +101,7 @@
 	width: 1214px;
 }
 #page1-bottom div{
-	width: 283.5px;
+	width: 283px;
 	padding: 50px 10px;
 }
 
@@ -120,7 +118,7 @@
 	text-decoration: underline;
 }
 #page1-bottom img{
-	width: 283.5px;
+	width: 283px;
 	height: 201px;
 }
 
@@ -130,12 +128,12 @@
 	left: 0;
 }
 #page1-bottom .left2{
-	margin: 0 607px 0 303.5px;
+	margin: 0 607px 0 303px;
 }
 #page1-bottom .right1{
 	position: absolute;
 	top: 0;
-	right: 303.5px;
+	right: 303px;
 }
 #page1-bottom .right2{
 	position: absolute;
@@ -153,7 +151,7 @@
 	width: 1214px;
 }
 #page2-bottom div{
-	width: 283.5px;
+	width: 283px;
 	padding: 50px 10px;
 }
 
@@ -171,7 +169,7 @@
 }
 
 #page2-bottom img{
-	width: 283.5px;
+	width: 283px;
 	height: 201px;
 }
 
@@ -181,12 +179,12 @@
 	left: 0;
 }
 #page2-bottom .left2{
-	margin: 0 607px 0 303.5px;
+	margin: 0 607px 0 303px;
 }
 #page2-bottom .right1{
 	position: absolute;
 	top: 0;
-	right: 303.5px;
+	right: 303px;
 }
 #page2-bottom .right2{
 	position: absolute;
@@ -208,7 +206,7 @@
 	position: relative;
 }
 .up ul{
-	width: 194.25px;
+	width: 194px;
 	margin: 30px 0 40px 0;
 }
 ul li{
@@ -226,22 +224,22 @@ ul li a{
 #main .ul2{
 	position: absolute;
 	top: 0;
-	left: 194.25px;
+	left: 194px;
 }
 #main .ul3{
 	position: absolute;
 	top: 0;
-	left: 388.5px;
+	left: 388px;
 }
 #main .ul4{
 	position: absolute;
 	top: 0;
-	right: 388.5px;
+	right: 388px;
 }
 #main .ul5{
 	position: absolute;
 	top: 0;
-	right: 194.5px;
+	right: 194px;
 }
 #main .ul6{
 	position: absolute;

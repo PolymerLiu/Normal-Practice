@@ -18,9 +18,11 @@
     border-left: 5px solid #0062a9;
 }
 .box-brand .slide {
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .box-brand .slide ul{
+    position: absolute;
+    left: 0;
     width: 2000px;
 }
 .box-brand .slide li{
@@ -62,12 +64,16 @@
     color: #ffffff;
     font: 700 30px/220px "宋体";
     background: rgba(0,0,0,.3);
+    cursor: pointer;
+}
+.prev:hover, .next:hover{
+    color: red;
 }
 .prev{
     left: 10px;
 }
 .next{
-    right: 0;
+    right: -50px;
 }
 
 /*****************
