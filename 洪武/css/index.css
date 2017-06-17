@@ -21,8 +21,6 @@
     overflow: hidden;
 }
 .box-brand .slide ul{
-    position: absolute;
-    left: 0;
     width: 2000px;
 }
 .box-brand .slide li{
@@ -73,7 +71,7 @@
     left: 10px;
 }
 .next{
-    right: -50px;
+    right: 0;
 }
 
 /*****************
