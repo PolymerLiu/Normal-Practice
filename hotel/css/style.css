@@ -1,0 +1,384 @@
+/*public*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 400 16px/20px '微软雅黑';
+}
+ul,ol,li{
+    list-style: none;
+}
+s,i,em,b{font-style: normal;text-decoration: none;}/*删除线，下划线*/
+h1,h2,h3,h4,h5,h6{  font-size: 14px;}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear{
+    overflow: hidden;
+}
+.wrap{
+    width: 1200px;
+    height: 700px;
+    background-color: #eee;
+}
+.w{
+    width: 1000px;
+    height: 700px;
+    margin: 20px 40px;
+    background-color: deepskyblue;
+}
+
+
+/*content*/
+aside{
+    /*width: 230px;*/
+    height: 700px;
+    margin-right:10px;
+}
+.content{
+    width: 1100px;
+    height: 600px;
+}
+aside ul{
+    padding-left:20px;
+}
+aside li{
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    padding-left:10px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+aside b{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: purple;
+    vertical-align: middle;
+}
+aside i{
+    font: 700 26px/60px '宋体';
+    vertical-align: middle;
+    position: absolute;
+    right: 20px;
+}
+
+
+/*box1*/
+.box1{
+    margin: 20px 40px;
+}
+.box1 .up span{
+    width: 160px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 24px;
+    font: 400 16px/40px '微软雅黑';
+    color: #fff;
+    background-color: orangered;
+}
+.box1 .up b{
+    width: 120px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font: 400 16px/40px '微软雅黑';
+    color: #aaa;
+    background-color: #eee;
+}
+.box1 .up{
+    margin-bottom: 20px;
+}
+
+.box1 .down .left .btn-group{
+    margin: 0 30px 0 20px;
+}
+.box1 .down .left .search{
+    width: 160px;
+    height: 100px;
+}
+.box1 .down .right{
+    width: 120px;
+    height: 32px;
+    line-height:32px;
+    padding: 0 15px;
+    border-radius: 16px;
+    color: #fff;
+    background-color: orangered;
+}
+
+
+/*mini*/
+.mini {
+    width: 1020px;
+    margin: 20px 40px 10px 40px;
+}
+.mini .summary{
+    height: 96px;
+    border: 1px solid #eeeeee;
+    border-left: 10px solid #ffa1a2;
+    box-shadow: 2px 2px 10px #888;
+    border-bottom: 0;
+}
+.mini .summary h1{
+    width: 212px;
+    padding-left: 40px;
+    margin: 0;
+    line-height: 96px;
+    font-size: 18px;
+    color: #333;
+}
+.mini .summary .exhibition h2{
+    font-size: 12px;
+    color: #999;
+    margin: 10px 0 20px 0;
+}
+.mini .summary .exhibition ul li{
+    padding-right: 4px;
+    float: left;
+}
+.mini .summary .tag{
+    color: #333;
+    margin-left: 100px;
+    font-size: 14px;
+}
+.mini .summary .tag h3{
+    margin-bottom: 20px;
+    font-size:13px;
+    color: #999;
+}
+.mini .summary .tag h4{
+    font-size: 14px;
+}
+.mini .summary .slide-up{
+    line-height: 96px;
+    padding-right: 20px;  /*浮动的元素margin失效*/
+}
+.mini .summary .slide-up span{
+    /*padding-right: 10px;*/
+}
+.mini .summary .slide-up i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    background: url("../img/sprite2.png") no-repeat left bottom;
+}
+
+/*detail*/
+.detail{
+    margin: 0 10px 0 10px;
+    box-shadow: 2px 2px 10px #888;
+    width: 1000px;
+}
+.detail .left{
+    margin: 20px 80px 20px 20px;
+}
+.detail .left h2{
+    color: #999;
+    margin-top: 0;
+}
+.detail .left input{
+    width: 140px;
+    height: 32px;
+}
+.detail .left h3{
+    color: #999;
+    /*margin-top: 0;*/
+}
+.detail .left ul{
+    height: 136px;
+}
+.detail .left li{
+    width: 24px;
+    height: 24px;
+    background-color: #ff5651;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+.detail .mid h2{
+    font-size: 12px;
+    color: #999;
+    margin: 10px 0 20px 0;
+}
+.detail .mid ul li{
+    padding-right: 4px;
+    float: left;
+}
+.detail .mid h3{
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #333;
+    margin-top: 0;
+}
+.detail .mid h4{
+    font-size: 12px;
+    color: #ccc;
+}
+.detail .mid h5{
+    width: 148px;
+    margin-top:20px;
+    font-size: 14px;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 17px;
+    box-shadow: 2px 2px 10px #888;
+}
+
+
+.detail .right{
+    padding-left: 80px;
+    width: 290px;
+}
+.detail .right h2{
+    margin-bottom: 10px;
+}
+.detail .right p{
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+    background-color: #ffa1a2;
+    color: #fff;
+    float: left;
+    border-radius: 6px;
+}
+.detail .right .box{
+    margin-top:90px;
+    width: 290px;
+    height: 52px;
+    padding-top: 20px;
+    border-top: 1px solid #eeeeee;
+}
+.detail .right .box input{
+    width: 232px;
+    height: 32px;
+    margin-right: 5px;
+}
+.detail .right .box .add{
+    display: inline-block;
+    width: 48px;
+    height: 32px;
+}
+
+
+/*sea*/
+.sea {
+    width: 1020px;
+    margin: 20px 40px 10px 40px;
+}
+.sea .summary{
+    height: 96px;
+    border: 1px solid #eeeeee;
+    border-left: 10px solid #7ecef3;
+    box-shadow: 2px 2px 10px #888;
+}
+.sea .summary h1{
+    width: 212px;
+    padding-left: 40px;
+    margin: 0;
+    line-height: 96px;
+    font-size: 18px;
+    color: #333;
+}
+.sea .summary .exhibition h2{
+    font-size: 12px;
+    color: #999;
+    margin: 10px 0 20px 0;
+}
+.sea .summary .exhibition ul li{
+    padding-right: 4px;
+    float: left;
+}
+.sea .summary .tag{
+    color: #333;
+    margin-left: 100px;
+    font-size: 14px;
+}
+.sea .summary .tag h3{
+    margin-bottom: 20px;
+    font-size:13px;
+    color: #999;
+}
+.sea .summary .tag h4{
+    font-size: 14px;
+}
+.sea .summary .slide-up{
+    line-height: 96px;
+    padding-right: 20px;  /*浮动的元素margin失效*/
+}
+.sea .summary .slide-up span{
+    /*padding-right: 10px;*/
+}
+.sea .summary .slide-up i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    background: url("../img/sprite2.png") no-repeat left top;
+}
+
+
+
+
+/*fire*/
+.fire {
+    width: 1020px;
+    margin: 20px 40px 10px 40px;
+}
+.fire .summary{
+    height: 96px;
+    border: 1px solid #eeeeee;
+    border-left: 10px solid #e5007f;
+    box-shadow: 2px 2px 10px #888;
+}
+.fire .summary h1{
+    width: 212px;
+    padding-left: 40px;
+    margin: 0;
+    line-height: 96px;
+    font-size: 18px;
+    color: #333;
+}
+.fire .summary .exhibition h2{
+    font-size: 12px;
+    color: #999;
+    margin: 10px 0 20px 0;
+}
+.fire .summary .exhibition ul li{
+    padding-right: 4px;
+    float: left;
+}
+.fire .summary .tag{
+    color: #333;
+    margin-left: 100px;
+    font-size: 14px;
+}
+.fire .summary .tag h3{
+    margin-bottom: 20px;
+    font-size:13px;
+    color: #999;
+}
+.fire .summary .tag h4{
+    font-size: 14px;
+}
+.fire .summary .slide-up{
+    line-height: 96px;
+    padding-right: 20px;  /*浮动的元素margin失效*/
+}
+.fire .summary .slide-up span{
+    /*padding-right: 10px;*/
+}
+.fire .summary .slide-up i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    background: url("../img/sprite2.png") no-repeat left top;
+}
